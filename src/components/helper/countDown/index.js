@@ -55,7 +55,7 @@ const CountDown = ({date}) => {
       {dateIn >= 0 ? 
       
       <div className="countDownItIs">
-        <h4 className="title">PRESALE START IN</h4>
+        <h4 className="title">PRESALE START SOON</h4>
         <div className='countdown-wrapper'>
           <div className='time-section'>
             <div className='time'>{state.days || '0'}</div>
